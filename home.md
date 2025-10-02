@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2025-10-02T17:49:24.676Z
+date: 2025-10-02T20:09:26.329Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-02T17:28:44.357Z
@@ -12,3 +12,5 @@ dateCreated: 2025-10-02T17:28:44.357Z
 Your content ere
 
 Atalho <kbd>Ctrl</kbd> + <kbd>C</kbd>
+
+Atalho <kbd>Ctrl</kbd> + <kbd>V</kbd>
