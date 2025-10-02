@@ -18,7 +18,6 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: "Wiki.js updates"
           base: main               # branch de destino
-          branch: staging-pr       # branch de origem (pode ser staging, mas melhor dar outro nome)
           title: "Wiki.js updates"
           body: "Pull request gerado automaticamente com alterações do Wiki.js"
           labels: "wiki"
