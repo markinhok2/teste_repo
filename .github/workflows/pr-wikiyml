@@ -1,0 +1,24 @@
+name: Auto Pull Request
+
+on:
+  push:
+    branches:
+      - staging
+jobs:
+  create_pr:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Create or update Pull Request
+        uses: peter-evans/create-pull-request@v5
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "Wiki.js updates"
+          branch: wiki-changes
+          base: main
+          title: "Wiki.js updates"
+          body: "Pull request gerado automaticamente com alterações do Wiki.js"
+          labels: "wiki"
+          draft: false
