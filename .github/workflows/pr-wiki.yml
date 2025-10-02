@@ -21,5 +21,3 @@ jobs:
           body: "Pull request gerado automaticamente com alterações do Wiki.js"
           labels: "wiki"
           draft: false
-          delete-branch: true
-          
