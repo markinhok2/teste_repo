@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2025-10-02T21:59:10.091Z
+date: 2025-10-14T17:35:03.838Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-02T20:54:59.088Z
@@ -17,3 +17,5 @@ Atalho <kbd>Ctrl</kbd> + <kbd>V</kbd>
 
 
 Atalho <kbd>Ctrl</kbd> + <kbd>P</kbd>
+
+Atalho <kbd>Ctrl</kbd> + <kbd>M</kbd>
